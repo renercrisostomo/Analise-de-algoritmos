@@ -2,7 +2,6 @@ import timeit
 import random
 import matplotlib.pyplot as plt
 
-# Recursivo com Memoização: O(2^n)
 def mochila_recursiva(itens, capacidade, n, memo):
     if (capacidade, n) in memo:
         return memo[(capacidade, n)]
@@ -20,7 +19,6 @@ def mochila_recursiva(itens, capacidade, n, memo):
     )
     return memo[(capacidade, n)]
 
-# Iterativo: O(n * capacidade)
 def mochila_iterativa(itens, capacidade, n):
     dp = [[0] * (capacidade+1) for _ in range(n+1)]
     
