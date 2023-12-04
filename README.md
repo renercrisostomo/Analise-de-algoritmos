@@ -23,7 +23,7 @@ O código também varia a quantidade de itens e o peso máximo da mochila, para 
 
 Os resultados obtidos pelo código são mostrados nos gráficos a seguir:
 
-Gráfico (placeholder)
+![Graficos](img/graficos.png)
 
 O gráfico 1 mostra o tempo de execução dos algoritmos em função da quantidade de itens, mantendo o peso máximo da mochila fixo em 50. O gráfico 2 mostra o tempo de execução dos algoritmos em função do peso máximo da mochila, mantendo a quantidade de itens fixa em 50.
 
